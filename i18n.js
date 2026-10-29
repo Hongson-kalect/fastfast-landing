@@ -7,6 +7,7 @@ var STRINGS = {
     "nav.screens": "Hình ảnh",
     "nav.pro": "Pro",
     "nav.contact": "Liên hệ",
+    "nav.guide": "Kiến thức",
     "hero.eyebrow": "Ứng dụng nhịn ăn gián đoạn",
     "hero.title": "Nhịn ăn thông minh.<br><span>Đều đặn mỗi ngày.</span>",
     "hero.lead": "FastFast giúp việc nhịn ăn thật đơn giản: bấm bắt đầu, chọn mục tiêu từ 16 đến 72 giờ, và nhìn chuỗi ngày cùng cả năm của bạn lớn dần. Mọi dữ liệu nằm trên điện thoại của bạn.",

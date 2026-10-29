@@ -25,3 +25,15 @@ Mở http://localhost:8080
 
 Repo public, Settings → Pages → Source: *Deploy from a branch*, branch `main`, thư mục `/ (root)`.
 Mỗi lần push lên `main` trang tự cập nhật sau ~1 phút.
+
+## Kiến thức (guide)
+
+Bài viết nằm ở `content/guide/<en|vi>/<slug>.md` (frontmatter: title, description, category, order, icon, updated).
+Nhóm: `basics`, `science`, `safety`, `lifestyle`, `app`. Mỗi bài phải có đủ bản en và vi (cùng tên file).
+Phần `## Sources` / `## Nguồn tham khảo` ở cuối được tách ra hiển thị riêng.
+
+Sau khi sửa bài, sinh lại trang rồi commit cả thư mục `guide/` và `sitemap.xml`:
+
+```bash
+node scripts/build-guide.mjs
+```
