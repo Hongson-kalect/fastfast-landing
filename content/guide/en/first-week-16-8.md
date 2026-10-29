@@ -28,6 +28,8 @@ Jumping straight into 16 hours can feel rough. This plan builds up over a week s
 | 6 | 15 h | 8 pm → 11 am | Stay busy in the late morning |
 | 7 | 16 h | 8 pm → 12 pm | Your first full 16:8 🎉 |
 
+![Fasting hours rise gently from 12 to 16 over seven days.](figure:firstWeek)
+
 If a day feels too hard, repeat the previous level. Going slower is not failing.
 
 ## Handling hunger

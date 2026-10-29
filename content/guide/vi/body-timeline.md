@@ -9,6 +9,8 @@ updated: 2026-10-29
 
 Nhịn ăn không phải một trạng thái duy nhất mà là chuỗi thay đổi nối tiếp nhau. Dòng thời gian dưới đây là mức trung bình cho người trưởng thành khoẻ mạnh sau một bữa ăn hỗn hợp bình thường. Mốc của bạn có thể lệch vài giờ tuỳ bữa ăn trước đó, mức vận động, giấc ngủ và chuyển hoá.
 
+![Dòng thời gian trung bình cho người trưởng thành khoẻ mạnh. Đoạn 0–24 giờ được vẽ rộng hơn đoạn 24–72 giờ.](figure:bodyTimeline)
+
 ## 0–4 giờ: vừa ăn xong
 
 Cơ thể tiêu hoá bữa ăn. Đường huyết và insulin tăng; insulin ra lệnh cho tế bào hấp thu glucose và cất phần dư – thành glycogen trong gan, cơ và thành mỡ. Đốt mỡ ở mức thấp vì insulin ức chế nó.

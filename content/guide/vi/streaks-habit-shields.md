@@ -31,6 +31,8 @@ Cuộc sống luôn có việc bất ngờ. Khiên cho phép bạn nghỉ một 
 - Nếu nghỉ khi **đã hết khiên**, streak bị đứt, Habit bị trừ (nghỉ càng lâu trừ càng nhiều) và Retain về 0.
 - Bạn giữ được **tối đa 3 khiên**. Nhận thêm khi đã đầy sẽ bị bỏ.
 
+![Mỗi ngày trống giữa hai phiên nhịn dùng một khiên và streak vẫn tiếp tục. Nghỉ khi đã hết khiên thì streak bị đứt.](figure:shields)
+
 ### Cách nhận khiên
 
 | Cách | Khiên |

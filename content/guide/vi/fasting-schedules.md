@@ -9,6 +9,8 @@ updated: 2026-10-29
 
 Không có kiểu nhịn nào "tốt nhất". Kiểu tốt nhất là kiểu bạn lặp lại được tuần này qua tuần khác mà không thấy khổ sở. Dưới đây là so sánh các lựa chọn phổ biến.
 
+![Các kiểu nhịn hằng ngày trên đồng hồ 24 giờ: xanh là thời gian nhịn, cam là khung ăn.](figure:schedules)
+
 ## Giới hạn giờ ăn hằng ngày
 
 Các kiểu này lặp lại mỗi ngày. Số đầu là số giờ nhịn, số sau là khung giờ ăn.

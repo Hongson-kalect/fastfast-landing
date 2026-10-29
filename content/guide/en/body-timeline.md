@@ -9,6 +9,8 @@ updated: 2026-10-29
 
 Fasting is not one state but a sequence of changes. The timeline below is an average for a healthy adult after a normal mixed meal. Your own timing can shift by several hours depending on what you last ate, how active you are, how well you slept and your metabolism.
 
+![Average timeline for a healthy adult. 0–24 h is drawn wider than 24–72 h.](figure:bodyTimeline)
+
 ## 0–4 hours: the fed state
 
 Your body digests the last meal. Blood glucose and insulin rise, and insulin tells cells to take up glucose and store the extra – as glycogen in the liver and muscles, and as fat. Fat burning is low because insulin suppresses it.

@@ -13,6 +13,8 @@ Autophagy is one of the most talked-about reasons to fast – and one of the mos
 
 The word comes from Greek and means "self-eating". Cells use autophagy to break down and recycle their own worn-out parts: misfolded proteins, damaged mitochondria and other debris. The material is wrapped in a small membrane bubble (an autophagosome), delivered to the lysosome and broken down into building blocks the cell can reuse.
 
+![Autophagy in four steps: worn-out parts are wrapped in a membrane, fused with a lysosome and broken down into reusable building blocks.](figure:autophagy)
+
 Think of it as cleaning and maintenance. Autophagy runs at a low level all the time and ramps up under stress, such as nutrient shortage, infection or exercise.
 
 In 2016, **Yoshinori Ohsumi** received the Nobel Prize in Physiology or Medicine for discovering the genes and mechanisms of autophagy, working in yeast.

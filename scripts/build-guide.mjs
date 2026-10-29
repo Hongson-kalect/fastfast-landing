@@ -4,6 +4,7 @@
 import { mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { renderFigure } from "../content/guide/figures.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const SITE = "https://hongson-kalect.github.io/fastfast-landing";
@@ -80,7 +81,8 @@ const CATEGORIES = [
   },
 ];
 
-// ─── Markdown tối giản: ##, ###, đoạn, danh sách -, 1., > ghi chú, bảng |, **đậm**, *nghiêng*, [link](url)
+// ─── Markdown tối giản: ##, ###, đoạn, danh sách -, 1., > ghi chú, bảng |, **đậm**, *nghiêng*, [link](url),
+// hình minh hoạ ![chú thích](figure:tên) lấy từ content/guide/figures.mjs
 
 const escape = (s) =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -103,7 +105,7 @@ const slugify = (s) =>
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
 
-const markdown = (src) => {
+const markdown = (src, lang) => {
   const lines = src.split(/\r?\n/);
   const out = [];
   const toc = [];
@@ -115,7 +117,10 @@ const markdown = (src) => {
       continue;
     }
     let m;
-    if ((m = line.match(/^(#{2,3}) (.+)/))) {
+    if ((m = line.match(/^!\[(.*)\]\(figure:(\w+)\)$/))) {
+      out.push(`<figure class="fig">${renderFigure(m[2], lang)}<figcaption>${inline(m[1])}</figcaption></figure>`);
+      i++;
+    } else if ((m = line.match(/^(#{2,3}) (.+)/))) {
       const level = m[1].length;
       const id = slugify(m[2]);
       if (level === 2) toc.push({ id, text: m[2] });
@@ -145,7 +150,7 @@ const markdown = (src) => {
       );
     } else {
       const parts = [];
-      while (i < lines.length && lines[i].trim() && !/^(#{2,3} |[-*] |\d+\. |> |\|)/.test(lines[i])) parts.push(lines[i++]);
+      while (i < lines.length && lines[i].trim() && !/^(#{2,3} |[-*] |\d+\. |> |\||!\[)/.test(lines[i])) parts.push(lines[i++]);
       out.push(`<p>${inline(parts.join(" "))}</p>`);
     }
   }
@@ -334,7 +339,7 @@ for (const lang of LANGS) {
   // Từng bài
   for (const a of articles[lang]) {
     const category = CATEGORIES.find((c) => c.id === a.category);
-    const { html, toc } = markdown(a.body);
+    const { html, toc } = markdown(a.body, lang);
     const related = articles[lang].filter((b) => b.category === a.category && b.slug !== a.slug).slice(0, 3);
     const minutes = Math.max(1, Math.round(words(a.body) / 200));
 

@@ -31,6 +31,8 @@ Life happens. Shields let you take a day off without breaking your streak.
 - If you rest **with no shields left**, the streak breaks, Habit drops (the longer the gap, the more it drops) and Retain resets to 0.
 - You can hold **up to 3 shields**. Extra shields beyond that are lost.
 
+![Each empty day between fasts uses a shield and the streak continues. A rest day with no shields left breaks the streak.](figure:shields)
+
 ### How to earn shields
 
 | How | Shields |

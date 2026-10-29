@@ -329,3 +329,42 @@ th { color: var(--title); background: var(--bg2); }
 .related { margin-top: 48px; }
 .related h2 { font-size: 1.2rem; }
 @media (max-width: 560px) { .guide-cta { flex-direction: column; } }
+
+/* Hình minh hoạ trong bài (content/guide/figures.mjs) */
+.fig { margin: 28px 0; padding: 18px 14px 12px; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); }
+.fig-svg { display: block; width: 100%; height: auto; font-family: inherit; }
+.fig figcaption { margin-top: 10px; font-size: 0.85rem; color: var(--muted); text-align: center; line-height: 1.5; }
+.fig-svg .f-text, .fig-svg .f-strong, .fig-svg .f-big { fill: var(--title); }
+.fig-svg .f-strong { font-size: 13px; font-weight: 700; }
+.fig-svg .f-big { font-size: 20px; font-weight: 800; }
+.fig-svg .f-small { fill: var(--text); font-size: 12px; }
+.fig-svg .f-tiny { fill: var(--muted); font-size: 11px; }
+.fig-svg .f-muted { fill: var(--muted); font-size: 12px; }
+.fig-svg .f-danger { fill: #dc2626; font-size: 13px; font-weight: 700; }
+.fig-svg .f-axis { stroke: var(--border); stroke-width: 2; }
+.fig-svg .f-band { fill: color-mix(in srgb, var(--primary) 12%, transparent); }
+.fig-svg .f-line { fill: none; stroke-width: 4; stroke-linecap: round; }
+.fig-svg .f-warm { stroke: var(--warning); }
+.fig-svg .f-cool { stroke: var(--primary); }
+.fig-svg .f-warm-fill { fill: var(--warning); }
+.fig-svg .f-cool-fill { fill: var(--primary); }
+.fig-svg .f-seg1 { fill: color-mix(in srgb, var(--warning) 45%, transparent); }
+.fig-svg .f-seg2 { fill: color-mix(in srgb, var(--primary) 28%, transparent); }
+.fig-svg .f-seg3 { fill: color-mix(in srgb, var(--primary) 55%, transparent); }
+.fig-svg .f-seg4 { fill: var(--primary); }
+.fig-svg .f-seg5 { fill: color-mix(in srgb, var(--primary) 70%, #7c3aed); }
+.fig-svg .f-ring { fill: none; stroke: var(--primary); stroke-width: 14; opacity: 0.85; }
+.fig-svg .f-arc { fill: none; stroke: var(--warning); stroke-width: 15; stroke-linecap: round; }
+.fig-svg .f-arrow { fill: none; stroke: var(--muted); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.fig-svg .f-cell { fill: color-mix(in srgb, var(--primary) 8%, transparent); stroke: var(--border); stroke-width: 2; }
+.fig-svg .f-junk { fill: var(--muted); opacity: 0.75; }
+.fig-svg .f-membrane { fill: none; stroke: var(--primary); stroke-width: 3; }
+.fig-svg .f-lyso { fill: color-mix(in srgb, var(--success) 14%, transparent); stroke: var(--success); stroke-width: 3; }
+.fig-svg .f-enzyme { fill: var(--success); }
+.fig-svg .f-block { fill: var(--success); }
+.fig-svg .f-check { fill: none; stroke: #fff; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.fig-svg .f-rest { fill: color-mix(in srgb, var(--warning) 14%, transparent); stroke: var(--warning); stroke-width: 2; }
+.fig-svg .f-shield { fill: var(--warning); }
+.fig-svg .f-broken { fill: color-mix(in srgb, #dc2626 10%, transparent); stroke: #dc2626; stroke-width: 2; }
+.fig-svg .f-cross { stroke: #dc2626; stroke-width: 4; stroke-linecap: round; }
+.fig-svg .f-streak { stroke: var(--primary); stroke-width: 6; stroke-linecap: round; }

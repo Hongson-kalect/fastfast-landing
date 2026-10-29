@@ -15,6 +15,8 @@ Every time you eat, your body spends a few hours digesting and storing energy. I
 
 Fasting does not burn fat by magic. In practice, a shorter eating window helps many people eat less without counting calories, and the regular rhythm makes healthy habits easier to keep.
 
+![As fasting goes on, your body shifts from glucose to fat and ketones – the metabolic switch, usually between 12 and 36 hours.](figure:metabolicSwitch)
+
 ## Why people try it
 
 - **Weight management:** in clinical trials, IF works about as well as ordinary calorie reduction – and some people simply find it easier to stick to.

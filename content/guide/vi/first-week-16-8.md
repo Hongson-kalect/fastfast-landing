@@ -28,6 +28,8 @@ Nhảy thẳng vào 16 giờ có thể khá vất vả. Kế hoạch này tăng 
 | 6 | 15 giờ | 20h → 11h | Bận rộn vào cuối buổi sáng |
 | 7 | 16 giờ | 20h → 12h | Phiên 16:8 trọn vẹn đầu tiên 🎉 |
 
+![Số giờ nhịn tăng nhẹ nhàng từ 12 lên 16 trong bảy ngày.](figure:firstWeek)
+
 Ngày nào thấy quá khó thì lặp lại mức hôm trước. Đi chậm không phải thất bại.
 
 ## Vượt qua cơn đói

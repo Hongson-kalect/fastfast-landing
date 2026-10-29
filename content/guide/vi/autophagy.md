@@ -13,6 +13,8 @@ Tự thực là một trong những lý do được nhắc nhiều nhất khi n�
 
 Từ này có gốc Hy Lạp, nghĩa là "tự ăn". Tế bào dùng tự thực để phân huỷ và tái chế các bộ phận đã cũ hỏng của chính mình: protein gấp sai, ti thể hư hại và các "rác" khác. Vật liệu được gói trong một túi màng nhỏ (autophagosome), đưa đến lysosome và phân giải thành các khối xây dựng để tế bào dùng lại.
 
+![Tự thực qua bốn bước: bộ phận cũ hỏng được gói trong màng, hợp với lysosome rồi bị phân giải thành nguyên liệu dùng lại.](figure:autophagy)
+
 Hãy hình dung nó như việc dọn dẹp và bảo trì. Tự thực luôn chạy ở mức thấp và tăng lên khi có áp lực như thiếu dinh dưỡng, nhiễm trùng hay vận động.
 
 Năm 2016, **Yoshinori Ohsumi** nhận giải Nobel Sinh lý học hoặc Y học nhờ khám phá các gen và cơ chế của tự thực, qua nghiên cứu trên nấm men.

@@ -9,6 +9,8 @@ updated: 2026-10-29
 
 There is no single "best" fasting schedule. The best one is the one you can repeat week after week without feeling miserable. Here is how the common options compare.
 
+![Daily schedules on a 24-hour clock: blue is fasting, orange is the eating window.](figure:schedules)
+
 ## Daily time-restricted eating
 
 These schedules repeat every day. The first number is hours of fasting, the second is the eating window.

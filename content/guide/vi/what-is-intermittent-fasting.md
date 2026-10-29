@@ -15,6 +15,8 @@ Mỗi lần ăn, cơ thể mất vài giờ để tiêu hoá và dự trữ năn
 
 Nhịn ăn không đốt mỡ bằng phép màu. Thực tế, khung giờ ăn ngắn hơn giúp nhiều người ăn ít hơn mà không phải đếm calo, và nhịp sinh hoạt đều đặn khiến thói quen lành mạnh dễ giữ hơn.
 
+![Khi nhịn càng lâu, cơ thể chuyển từ glucose sang mỡ và ketone – chuyển đổi chuyển hoá, thường trong khoảng 12–36 giờ.](figure:metabolicSwitch)
+
 ## Vì sao nhiều người thử
 
 - **Kiểm soát cân nặng:** trong các thử nghiệm lâm sàng, IF hiệu quả tương đương cắt giảm calo thông thường – và nhiều người thấy dễ duy trì hơn.
