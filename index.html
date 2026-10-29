@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FastFast – Intermittent Fasting Tracker</title>
+  <meta name="description" content="FastFast is a calm, private intermittent fasting tracker: 16h–72h goals, streaks, achievements, a yearly pixel journal and Android widgets. No ads, no account needed.">
+  <meta name="theme-color" content="#0E1117">
+  <link rel="icon" type="image/png" href="assets/favicon-48.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <meta property="og:title" content="FastFast – Intermittent Fasting Tracker">
+  <meta property="og:description" content="Track fasts from 16h to 72h, build streaks and see your year in pixels. Private, offline, no ads.">
+  <meta property="og:image" content="assets/icon-512.png">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="#"><img src="assets/icon-256.png" alt="" width="32" height="32">FastFast</a>
+      <nav class="nav">
+        <a href="#features" data-i18n="nav.features">Features</a>
+        <a href="#screens" data-i18n="nav.screens">Screenshots</a>
+        <a href="#pro" data-i18n="nav.pro">Pro</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <select class="lang" aria-label="Language">
+        <option value="en">English</option>
+        <option value="vi">Tiếng Việt</option>
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <span class="eyebrow" data-i18n="hero.eyebrow">Intermittent fasting tracker</span>
+          <h1 data-i18n-html="hero.title">Fast smarter.<br><span>Stay consistent.</span></h1>
+          <p class="lead" data-i18n="hero.lead">FastFast keeps your fasting simple: start the timer, pick a goal from 16 to 72 hours, and watch your streak and your year grow. Everything stays on your phone.</p>
+          <div class="cta">
+            <!-- TODO: thay href bằng https://play.google.com/store/apps/details?id=com.kalect.fastfast khi app lên Play -->
+            <a class="btn btn-play" href="#" data-play-link aria-label="Get it on Google Play">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3.6 1.8c-.3.3-.5.8-.5 1.4v17.6c0 .6.2 1.1.5 1.4l.1.1 9.9-9.9v-.2L3.7 1.7l-.1.1zm13.3 13.9-3.3-3.3v-.2l3.3-3.3.1.1 3.9 2.2c1.1.6 1.1 1.7 0 2.3l-3.9 2.2-.1 0zm-.1.1L13.4 12 3.6 21.8c.4.4 1 .4 1.7.1l11.5-6.1M16.8 8.2 5.3 2.1c-.7-.4-1.3-.3-1.7.1L13.4 12l3.4-3.8z"/></svg>
+              <span><small data-i18n="hero.playSmall">GET IT ON</small><b>Google Play</b></span>
+            </a>
+            <a class="btn btn-ghost" href="#features" data-i18n="hero.more">See features</a>
+          </div>
+          <p class="soon" data-i18n="hero.soon">Coming soon to Google Play · iOS later</p>
+          <ul class="pills">
+            <li data-i18n="hero.p1">No ads</li>
+            <li data-i18n="hero.p2">Works offline</li>
+            <li data-i18n="hero.p3">No account needed</li>
+            <li data-i18n="hero.p4">10 languages</li>
+          </ul>
+        </div>
+        <div class="phone" aria-hidden="true">
+          <div class="screen">
+            <span class="tag" data-i18n="mock.fasting">Fasting · Fat burn</span>
+            <svg class="ring" viewBox="0 0 120 120">
+              <circle class="track" cx="60" cy="60" r="50" fill="none" stroke-width="10"/>
+              <circle class="bar" cx="60" cy="60" r="50" fill="none" stroke-width="10" stroke-dasharray="314" stroke-dashoffset="88" transform="rotate(-90 60 60)"/>
+              <text x="60" y="66" text-anchor="middle" font-size="20">13:02:45</text>
+            </svg>
+            <span class="chip" data-i18n="mock.goal">Goal 18h · 72%</span>
+            <span class="tag">🔥 12 <span data-i18n="mock.streak">day streak</span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow" data-i18n="feat.eyebrow">Features</span>
+          <h2 data-i18n="feat.title">Everything you need, nothing you don't</h2>
+          <p data-i18n="feat.sub">Built for people who want a clear timer, gentle motivation and honest records.</p>
+        </div>
+        <div class="grid">
+          <div class="card"><div class="icon">⏱️</div><h3 data-i18n="feat.timer.t">Fasting timer</h3><p data-i18n="feat.timer.d">One tap to start. See your progress, fasting stage and time left at a glance.</p></div>
+          <div class="card"><div class="icon">🎯</div><h3 data-i18n="feat.goals.t">Goals from 16h to 72h</h3><p data-i18n="feat.goals.d">Intermittent, Fat burn, Warrior, OMAD, Monk… with clear advice for every level.</p></div>
+          <div class="card"><div class="icon">🔥</div><h3 data-i18n="feat.streak.t">Habits &amp; streaks</h3><p data-i18n="feat.streak.d">Build a daily habit, track milestones and use shields to protect your streak on hard days.</p></div>
+          <div class="card"><div class="icon">🏅</div><h3 data-i18n="feat.ach.t">Achievements</h3><p data-i18n="feat.ach.d">Unlock badges as you reach new records and keep going.</p></div>
+          <div class="card"><div class="icon">🗓️</div><h3 data-i18n="feat.journey.t">Journey – your year in pixels</h3><p data-i18n="feat.journey.d">A yearly calendar colored by mood or fasting hours. Export it as an image to share.</p></div>
+          <div class="card"><div class="icon">📝</div><h3 data-i18n="feat.notes.t">Notes, mood &amp; weight</h3><p data-i18n="feat.notes.d">Log how you feel, your weight and a photo for each day.</p></div>
+          <div class="card"><div class="icon">📊</div><h3 data-i18n="feat.stats.t">Statistics</h3><p data-i18n="feat.stats.d">Weekly and monthly charts to see your real progress over time.</p></div>
+          <div class="card"><div class="icon">📱</div><h3 data-i18n="feat.widget.t">Home screen widgets</h3><p data-i18n="feat.widget.d">Check and control your fast right from your Android home screen.</p></div>
+          <div class="card"><div class="icon">🔒</div><h3 data-i18n="feat.private.t">Private by design</h3><p data-i18n="feat.private.d">Data lives on your device. Optional backup to your own Google Drive.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="goals">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow" data-i18n="goals.eyebrow">Fasting goals</span>
+          <h2 data-i18n="goals.title">Start easy, go further when you're ready</h2>
+        </div>
+        <div class="goal-list">
+          <div class="goal"><b>16h</b><span data-i18n="goals.g16">Intermittent</span></div>
+          <div class="goal"><b>18h</b><span data-i18n="goals.g18">Fat burn</span></div>
+          <div class="goal"><b>20h</b><span data-i18n="goals.g20">Warrior</span></div>
+          <div class="goal"><b>23h</b><span>OMAD</span></div>
+          <div class="goal"><b>36h+</b><span data-i18n="goals.g36">Monk &amp; beyond</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="screens">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow" data-i18n="shots.eyebrow">Screenshots</span>
+          <h2 data-i18n="shots.title">A calm, clean interface</h2>
+          <p data-i18n="shots.sub">Light and dark themes, plus seasonal themes and effects.</p>
+        </div>
+        <!-- Placeholder: thả ảnh thật vào assets/screens/ rồi thêm <img class="shot" src="assets/screens/xxx.png" alt=""> vào trong .screen -->
+        <div class="shots">
+          <figure>
+            <div class="phone"><div class="screen">
+              <svg class="ring" viewBox="0 0 120 120"><circle class="track" cx="60" cy="60" r="50" fill="none" stroke-width="10"/><circle class="bar" cx="60" cy="60" r="50" fill="none" stroke-width="10" stroke-dasharray="314" stroke-dashoffset="150" transform="rotate(-90 60 60)"/><text x="60" y="66" text-anchor="middle" font-size="20">08:30</text></svg>
+              <span class="chip">16h</span>
+            </div></div>
+            <figcaption data-i18n="shots.c1">Timer</figcaption>
+          </figure>
+          <figure>
+            <div class="phone"><div class="screen">
+              <div class="mini-cal" id="cal"></div>
+            </div></div>
+            <figcaption data-i18n="shots.c2">Journey</figcaption>
+          </figure>
+          <figure>
+            <div class="phone"><div class="screen">
+              <div class="bars"><i style="height:40%"></i><i style="height:70%"></i><i style="height:55%"></i><i style="height:90%"></i><i style="height:65%"></i><i style="height:80%"></i><i style="height:100%"></i></div>
+              <span class="tag" data-i18n="shots.week">This week</span>
+            </div></div>
+            <figcaption data-i18n="shots.c3">Statistics</figcaption>
+          </figure>
+          <figure>
+            <div class="phone"><div class="screen">
+              <span style="font-size:2.6rem">🏅</span>
+              <span class="chip" data-i18n="shots.badge">7-day streak</span>
+            </div></div>
+            <figcaption data-i18n="shots.c4">Achievements</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="pro" class="pro">
+      <div class="wrap">
+        <div class="card">
+          <div>
+            <span class="eyebrow">FastFast Pro</span>
+            <h2 data-i18n="pro.title">Make it yours</h2>
+            <p data-i18n="pro.lead">All core tracking is free, forever. Pro is about personalization – and supporting an independent app with no ads.</p>
+            <p class="free-note" data-i18n="pro.note">Unlocked inside the app, purchased through Google Play.</p>
+          </div>
+          <ul>
+            <li data-i18n="pro.l1">Premium color themes</li>
+            <li data-i18n="pro.l2">Decorative effects</li>
+            <li data-i18n="pro.l3">Mood &amp; goal icon packs</li>
+            <li data-i18n="pro.l4">Journey heatmap mode</li>
+            <li data-i18n="pro.l5">Extra widget styles</li>
+          </ul>
+        </div>
+        <div class="xmas">
+          <span class="emoji">🎄</span>
+          <div data-i18n-html="pro.xmas"><b>Christmas theme is free</b> from December 1 to December 31 – with festive effects and icons.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 data-i18n="contact.title">Questions or feedback?</h2>
+          <p data-i18n="contact.sub">We read every message. Bug reports and ideas are very welcome.</p>
+        </div>
+        <a class="btn btn-ghost" href="mailto:hongson197201@gmail.com?subject=FastFast">✉️ hongson197201@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <span>© 2026 FastFast</span>
+      <span><a href="privacy.html" data-i18n="foot.privacy">Privacy Policy</a> · <a href="#contact" data-i18n="nav.contact">Contact</a></span>
+    </div>
+  </footer>
+
+  <script>
+    // Ô lịch mẫu cho ảnh placeholder Journey
+    (function () {
+      var cal = document.getElementById("cal");
+      for (var i = 0; i < 49; i++) {
+        var c = document.createElement("i");
+        var r = (i * 37) % 10;
+        c.className = r > 7 ? "l3" : r > 4 ? "l2" : r > 1 ? "l1" : "";
+        cal.appendChild(c);
+      }
+    })();
+  </script>
+  <script src="i18n.js"></script>
+</body>
+</html>
